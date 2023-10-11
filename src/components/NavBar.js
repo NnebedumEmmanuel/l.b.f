@@ -12,8 +12,9 @@ function NavBar() {
           LBF
           </Navbar.Brand>
           <Nav className=" d-flex  justify-content-end">
-            <NavLink href="#home">Home</NavLink>
-            <NavLink href="#features">Features</NavLink>
+          <Nav.Link><NavLink to="#home">Home</NavLink> </Nav.Link>
+            <NavLink to="#home">Home</NavLink>
+            <NavLink to="#About">Features</NavLink>
             <NavLink href="#pricing">Pricing</NavLink>
           </Nav>
         </Container>
