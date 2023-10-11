@@ -1,43 +1,23 @@
-import Container from 'react-bootstrap/Container';
-import Nav from 'react-bootstrap/Nav';
-import Navbar from 'react-bootstrap/Navbar';
-
+import 'bootstrap/dist/css/bootstrap.css';
+import { Navbar, Container, Nav, NavLink,} from "react-bootstrap";
+import Logo from "../Assets/img/lb-logo.jpg"
 function NavBar() {
   return (
     <>
-      <Navbar bg="dark" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
+      <Navbar bg="success" data-bs-theme="dark">
+        <Container className='Fluid mx-0'>
+          
+          <Navbar.Brand href="#home" className='Justify-content-start mx-5'>
+          <img src={Logo} alt="" width="35" height="30" className='rounded-pill'/>
+          LBF
+          </Navbar.Brand>
+          <Nav className=" d-flex  justify-content-end">
+            <NavLink href="#home">Home</NavLink>
+            <NavLink href="#features">Features</NavLink>
+            <NavLink href="#pricing">Pricing</NavLink>
           </Nav>
         </Container>
-      </Navbar>
-      <br />
-      <Navbar bg="primary" data-bs-theme="dark">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
-
-      <br />
-      <Navbar bg="light" data-bs-theme="light">
-        <Container>
-          <Navbar.Brand href="#home">Navbar</Navbar.Brand>
-          <Nav className="me-auto">
-            <Nav.Link href="#home">Home</Nav.Link>
-            <Nav.Link href="#features">Features</Nav.Link>
-            <Nav.Link href="#pricing">Pricing</Nav.Link>
-          </Nav>
-        </Container>
-      </Navbar>
+      </Navbar> 
     </>
   );
 }
