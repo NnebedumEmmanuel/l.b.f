@@ -16,9 +16,9 @@ function NavBar() {
           <Nav className=" d-flex  justify-content-end">
           <li className="nav-item"><NavLink to="/" className="nav-link">Home</NavLink></li>
             
-            <NavLink to="Sermons" className="nav-link">Sermons</NavLink>
-            <NavLink to="About" className="nav-link">About</NavLink>
-            <NavLink to="Contact" className="nav-link">Contact</NavLink>
+            <li className='nav-item'><NavLink to="Sermons" className="nav-link">Sermons</NavLink></li>
+           <li className="nav-item"> <NavLink to="About" className="nav-link">About</NavLink></li>
+           <li className="nav-item"> <NavLink to="Contact" className="nav-link">Contact</NavLink></li>
               
   
           </Nav>
