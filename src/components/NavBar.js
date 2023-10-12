@@ -8,16 +8,17 @@ function NavBar() {
     <>
       <Navbar bg="success" data-bs-theme="dark">
         <Container className='Fluid mx-0'>
-          <Navbar.Brand href="#home" className='Justify-content-start mx-5'>
-          <img src={Logo} alt="" width="35" height="30" className='rounded-pill'/>
+          <Navbar.Brand href="#home" className='Justify-content-start'>
+          <img src={Logo} alt="" width="35" height="30" className='rounded-pill nav-logo'/>
           LBF
           </Navbar.Brand>
 
           <Nav className=" d-flex  justify-content-end">
-            <NavLink index>Home</NavLink>
-            <NavLink to="Sermons">Sermons</NavLink>
-            <NavLink to="About">About</NavLink>
-            <NavLink to="Contact">Contact</NavLink>
+          <li className="nav-item"><NavLink to="/" className="nav-link">Home</NavLink></li>
+            
+            <NavLink to="Sermons" className="nav-link">Sermons</NavLink>
+            <NavLink to="About" className="nav-link">About</NavLink>
+            <NavLink to="Contact" className="nav-link">Contact</NavLink>
               
   
           </Nav>
