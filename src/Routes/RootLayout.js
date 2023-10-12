@@ -8,7 +8,7 @@ export default function RootLayout() {
         <NavBar/>
       </header>
       <main>
-        <Outlet />
+      <Outlet />
       </main>
       <footer>
         
