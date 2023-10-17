@@ -37,7 +37,7 @@ header nav {
     margin-left: 16px;
   }
   .nav-links {
-    color: #fff;
+    
     text-decoration: none;
     padding: 0.5rem 1rem;
     height: 100%;
@@ -61,13 +61,14 @@ header nav {
     background: #ffdd40;
   }
   
-  .nav-item .active {
+  .nav-item.active {
     color: #ffdd40;
     border: 1px solid #ffdd40;
   }
   .nav-link .active {
-    color: #ffdd40;
+    background-color: #ffdd40;
     border: 1px solid #ffdd40;
+    margin: 100%;
   }
   
   .nav-icon {
