@@ -1,0 +1,19 @@
+import React from 'react'
+
+const HeaderForm = () => {
+  return (
+    <div class="header-form">
+        <div class="bg-lay">
+            <div class="cross">
+                <i class="fas fa-times"></i>
+            </div>
+        </div>
+        <form class="form-container">
+            <input type="text" placeholder="Input Your Search" name="name" />
+            <button type="submit">Search</button>
+        </form>
+    </div>
+  )
+}
+
+export default HeaderForm
