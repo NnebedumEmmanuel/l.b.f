@@ -78,7 +78,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div class="header__bottom" style={{ background: "rgb(241 193 82)" }}>
+      <div class="header__bottom" >
         <div class="container">
           <div class="header__mainmenu navbar navbar-expand-xl navbar-light">
             <div class="header__logo">

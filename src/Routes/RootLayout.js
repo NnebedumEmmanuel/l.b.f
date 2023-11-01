@@ -8,8 +8,13 @@ export default function RootLayout() {
       <header>
         <Header />
       </header>
+      <main>
+        <Outlet />
+      </main>
       
-      <footer></footer>
+      <footer>
+
+      </footer>
     </div>
   );
 }

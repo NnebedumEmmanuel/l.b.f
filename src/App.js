@@ -7,7 +7,7 @@ import {
 } from 'react-router-dom'
 
 //pages
-import { Home } from "./Pages/Home";
+import Home from "./Pages/Home";
 import { About } from "./Pages/About";
 import { Sermons } from "./Pages/Sermons";
 import { Contact } from "./Pages/Contact";
