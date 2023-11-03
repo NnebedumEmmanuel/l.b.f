@@ -26,7 +26,7 @@ const Header = () => {
                     <a href="index.html">
                       <img
                         className="rounded-pill  "
-                        style={{ width: "100px" }}
+                        style={{ width: "90px" }}
                         src={Logo}
                         alt="logo"
                       />
@@ -85,7 +85,7 @@ const Header = () => {
               <a href="index.html" class="d-none d-xl-block">
                 <img
                   className="rounded-pill  "
-                  style={{ width: "100px" }}
+                  style={{ width: "60px" }}
                   src={Logo}
                   alt="logo"
                 />
@@ -93,7 +93,7 @@ const Header = () => {
               <a href="index.html" class="d-xl-none">
                 <img
                   className="rounded-pill  "
-                  style={{ width: "100px" }}
+                  style={{ width: "70px" }}
                   src={Logo}
                   alt="logo"
                 />

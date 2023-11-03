@@ -6,7 +6,7 @@ import Banner from '../components/Banner';
 
 const Home = () => {
   return (
-    <div>
+    <body>
       {/* main secion */}
 
       {/* preloader start here */}
@@ -53,7 +53,7 @@ const Home = () => {
       {/* <!-- ================> Social section start here <================== --> */}
 
       {/* fOOTER SECTION */}
-    </div>
+    </body>
   );
 }
 

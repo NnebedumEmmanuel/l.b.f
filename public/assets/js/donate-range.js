@@ -1,1 +1,0 @@
-$(window).scroll((function(){var t=$(".donaterange__content").offset().top,e=$(".donaterange__content").outerHeight(),n=$(window).height();$(this).scrollTop()>t+e-1.4*n&&jQuery(document).ready((function(){jQuery(".donaterange__bars").each((function(){jQuery(this).find(".donaterange__bar").animate({width:jQuery(this).attr("data-percent")},5e3)}))}))}));
