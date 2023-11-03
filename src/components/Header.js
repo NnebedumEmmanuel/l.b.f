@@ -1,5 +1,6 @@
 import React from 'react'
 import Logo from "../images/img/lb-logo.jpg"
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
@@ -23,14 +24,14 @@ const Header = () => {
                 </div>
                 <div class="header__top-center">
                   <div class="header__top-logo d-none d-md-block">
-                    <a href="index.html">
+                    <Link to="index.html">
                       <img
                         className="rounded-pill  "
                         style={{ width: "90px" }}
                         src={Logo}
                         alt="logo"
                       />
-                    </a>
+                    </Link>
                   </div>
                 </div>
                 <div class="header__top-right">
@@ -38,24 +39,24 @@ const Header = () => {
                     <div class="header__top-social">
                       <ul>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i class="fab fa-facebook-f"></i>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i class="fab fa-twitter"></i>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i class="fab fa-linkedin-in"></i>
-                          </a>
+                          </Link>
                         </li>
                         <li>
-                          <a href="#">
+                          <Link to="#">
                             <i class="fab fa-pinterest-p"></i>
-                          </a>
+                          </Link>
                         </li>
                       </ul>
                     </div>
@@ -82,22 +83,22 @@ const Header = () => {
         <div class="container">
           <div class="header__mainmenu navbar navbar-expand-xl navbar-light">
             <div class="header__logo">
-              <a href="index.html" class="d-none d-xl-block">
+              <Link to="index.html" class="d-none d-xl-block">
                 <img
                   className="rounded-pill  "
                   style={{ width: "60px" }}
                   src={Logo}
                   alt="logo"
                 />
-              </a>
-              <a href="index.html" class="d-xl-none">
+              </Link>
+              <Link to="index.html" class="d-xl-none">
                 <img
                   className="rounded-pill  "
                   style={{ width: "70px" }}
                   src={Logo}
                   alt="logo"
                 />
-              </a>
+              </Link>
             </div>
             <div class="header__bar">
               <button
@@ -127,7 +128,7 @@ const Header = () => {
               <div class="collapse navbar-collapse" id="menubar">
                 <ul>
                   <li class="active">
-                    <a href="#0">Home</a>
+                    <Link to="#0">Home</Link>
                     <ul>
                       <li>
                         <a href="index.html" class="active">

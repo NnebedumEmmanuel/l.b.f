@@ -1,5 +1,5 @@
 import React from 'react'
-import PreLoader from '../components/PreLoader';
+import PreLoader from "../components/PreLoader";
 import HeaderForm from '../components/HeaderForm';
 import HeaderCart from '../components/HeaderCart';
 import Banner from '../components/Banner';
