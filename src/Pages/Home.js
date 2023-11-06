@@ -8,8 +8,9 @@ import EventSection from '../components/EventSection';
 import ScheduleSection from '../components/ScheduleSection';
 import SermonSection from '../components/SermonSection';
 import Cause from '../Cause';
-import { About } from './About';
+
 import GallerySection from '../components/GallerySection';
+import AboutSection from '../components/AboutSection';
 
 const Home = () => {
   return (
@@ -38,6 +39,7 @@ const Home = () => {
 
 
       {/* <!-- ================> About section start here <================== --> */}
+      <AboutSection/>
      
 
       {/* <!-- ================> gallery section start here <================== --> */}
