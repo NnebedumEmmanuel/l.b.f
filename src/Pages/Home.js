@@ -4,6 +4,10 @@ import HeaderForm from '../components/HeaderForm';
 import HeaderCart from '../components/HeaderCart';
 import Banner from '../components/Banner';
 import EventTime from '../components/EventTime';
+import EventSection from '../components/EventSection';
+import ScheduleSection from '../components/ScheduleSection';
+import SermonSection from '../components/SermonSection';
+import Cause from '../Cause';
 
 const Home = () => {
   return (
@@ -29,21 +33,27 @@ const Home = () => {
 
       {/* < Event Time section start here  */}
       <EventTime/>
-      
+
 
       {/* <!-- ================> About section start here <================== --> */}
 
       {/* <!-- ================> gallery section start here <================== --> */}
+      
 
       {/* <!-- ================> Event section start here <================== --> */}
+      <EventSection/>
 
       {/* <!-- ================> Shedule section start here <================== --> */}
+      <ScheduleSection/>
 
       {/* <!-- ================> Sermon section start here <================== --> */}
+      <SermonSection/>
 
       {/* <!-- ================> Cause section start here <================== --> */}
+      <Cause/>
 
       {/* <!-- ================> Blog section start here <================== --> */}
+        
 
       {/* <!-- ================> Qoute section start here <================== --> */}
 
