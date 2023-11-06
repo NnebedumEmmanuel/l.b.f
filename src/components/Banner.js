@@ -8,7 +8,7 @@ const Banner = () => {
     <div class="banner__slider banner-style2 overflow-hidden">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <div class="banner" style={{ background: `url(${background1})` }}>
+          <div class="banner" style={{ backgroundImage: `url(${background1})` }}>
             <div class="container">
               <div class="banner__content ms-lg-auto">
                 <h2>We Believe In Huminity</h2>
@@ -17,7 +17,7 @@ const Banner = () => {
                   professional "outside the box" thinking. Distinctively network
                   highly efficient leadership skills
                 </p>
-                <a href="#" class="default-btn move-right">
+                <a href="#s" class="default-btn move-right">
                   <span>GET HELP NOW</span>
                 </a>
               </div>
@@ -25,7 +25,7 @@ const Banner = () => {
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="banner" style={{ background: `url(${background2})` }}>
+          <div class="banner" style={{ backgroundImage: `url(${background2})` }}>
             <div class="container">
               <div class="banner__content">
                 <h2>A Powerful Religion Theme</h2>
@@ -42,7 +42,7 @@ const Banner = () => {
           </div>
         </div>
         <div class="swiper-slide">
-          <div class="banner" style={{ background: `url(${background3})` }}
+          <div class="banner" style={{ backgroundImage: `url(${background3})` }}
             >
             <div class="container">
               <div class="banner__content ms-lg-auto">

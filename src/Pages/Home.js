@@ -3,10 +3,11 @@ import PreLoader from "../components/PreLoader";
 import HeaderForm from '../components/HeaderForm';
 import HeaderCart from '../components/HeaderCart';
 import Banner from '../components/Banner';
+import EventTime from '../components/EventTime';
 
 const Home = () => {
   return (
-    <body>
+    <>
       {/* main secion */}
 
       {/* preloader start here */}
@@ -26,7 +27,9 @@ const Home = () => {
       <Banner/>
 
 
-      {/* <!-- ================> Event Time section start here <================== --> */}
+      {/* < Event Time section start here  */}
+      <EventTime/>
+      
 
       {/* <!-- ================> About section start here <================== --> */}
 
@@ -53,7 +56,7 @@ const Home = () => {
       {/* <!-- ================> Social section start here <================== --> */}
 
       {/* fOOTER SECTION */}
-    </body>
+    </>
   );
 }
 

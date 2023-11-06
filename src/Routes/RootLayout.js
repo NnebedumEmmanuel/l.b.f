@@ -4,17 +4,17 @@ import Header from "../components/Header";
 
 export default function RootLayout() {
   return (
-    <div className="root-layout">
+    <body className="root-layout">
       <header>
         <Header />
       </header>
-      <main>
+     
         <Outlet />
-      </main>
+    
       
       <footer>
 
       </footer>
-    </div>
+    </body>
   );
 }
