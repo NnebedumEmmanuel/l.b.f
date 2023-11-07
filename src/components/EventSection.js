@@ -1,4 +1,7 @@
 import React from 'react'
+import Image1 from "../images/event/01.jpg"
+import Image2 from "../images/event/02.jpg";
+import Image3 from "../images/event/03.jpg";
 
 const EventSection = () => {
   return (
@@ -14,7 +17,7 @@ const EventSection = () => {
                         <div class="event__item">
                             <div class="event__inner">
                                 <div class="event__thumb">
-                                    <a href="event-single.html"><img src="assets/images/event/01.jpg" alt="event thumb" /></a>
+                                    <a href="event-single.html"><img src={Image1} alt="event thumb" /></a>
                                     <div class="event__thumb-date">
                                         <h6>09</h6>
                                         <p>Nov</p>
@@ -52,7 +55,7 @@ const EventSection = () => {
                         <div class="event__item">
                             <div class="event__inner">
                                 <div class="event__thumb">
-                                    <a href="event-single.html"><img src="assets/images/event/02.jpg" alt="event thumb" /></a>
+                                    <a href="event-single.html"><img src={Image2} alt="event thumb" /></a>
                                     <div class="event__thumb-date">
                                         <h6>09</h6>
                                         <p>Nov</p>
@@ -90,7 +93,7 @@ const EventSection = () => {
                         <div class="event__item">
                             <div class="event__inner">
                                 <div class="event__thumb">
-                                    <a href="event-single.html"><img src="assets/images/event/03.jpg" alt="event thumb" /></a>
+                                    <a href="event-single.html"><img src={Image3} alt="event thumb" /></a>
                                     <div class="event__thumb-date">
                                         <h6>09</h6>
                                         <p>Nov</p>

@@ -267,7 +267,7 @@ const ScheduleSection = () => {
                     <div class="shedule__sunrise-inner">
                       <div class="shedule__sunrise-thumb">
                         <img
-                          src="assets/images/shedule/sun.png"
+                          src={Image1}
                           alt="event sunrise"
                         />
                       </div>
