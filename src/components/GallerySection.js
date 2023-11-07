@@ -1,4 +1,6 @@
 import React from 'react'
+import Image1 from "../images/gallery/01.jpg";
+import Image2 from "../images/gallery/02.jpg";
 
 const GallerySection = () => {
   return (
@@ -25,7 +27,7 @@ const GallerySection = () => {
                 <div class="gallery__inner">
                   <div class="gallery__thumb">
                     <img
-                      src="assets/images/gallery/01.jpg"
+                      src={Image1}
                       alt="gallery-thumb"
                       class="w-100"
                     />
@@ -47,7 +49,7 @@ const GallerySection = () => {
                 <div class="gallery__inner">
                   <div class="gallery__thumb">
                     <img
-                      src="assets/images/gallery/02.jpg"
+                      src={Image2}
                       alt="gallery-thumb"
                       class="w-100"
                     />
