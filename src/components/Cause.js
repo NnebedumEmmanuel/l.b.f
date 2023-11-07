@@ -5,7 +5,7 @@ const Cause = () => {
   return (
     <div
       class="cause padding--top padding--bottom bg-img"
-      style={{background: `url(${background}) rgba(0, 0, 0, .4);`}}
+      style={{background: `url(${background}) rgba(0, 0, 0, .4)`}}
     >
       <div class="container">
         <div class="section__header text-center">
