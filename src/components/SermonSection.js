@@ -1,5 +1,10 @@
 import React from 'react'
 
+import Image1 from "../images/sermon/01.jpg"
+import Image2 from "../images/sermon/02.jpg";
+import Image3 from "../images/sermon/03.jpg";
+import Image4 from "../images/sermon/04.jpg";
+
 const SermonSection = () => {
   return (
     <div class="sermon padding--top padding--bottom bg-light">
@@ -14,7 +19,7 @@ const SermonSection = () => {
                         <div class="sermon__item">
                             <div class="sermon__inner">
                                 <div class="sermon__thumb">
-                                    <img src="assets/images/sermon/01.jpg" alt="sermon thumb" />
+                                    <img src={Image1} alt="sermon thumb" />
                                 </div>
                                 <div class="sermon__content">
                                     <a href="sermon-single.html"><h6>Lorem ipsum dolor sit amet, consectetur adipisicing</h6></a>
@@ -36,7 +41,7 @@ const SermonSection = () => {
                         <div class="sermon__item">
                             <div class="sermon__inner">
                                 <div class="sermon__thumb">
-                                    <img src="assets/images/sermon/02.jpg" alt="sermon thumb" />
+                                    <img src={Image2} alt="sermon thumb" />
                                 </div>
                                 <div class="sermon__content">
                                     <a href="sermon-single.html"><h6>Seamlessly embrace distributed portals whereas maintainable platforms.</h6></a>
@@ -58,7 +63,7 @@ const SermonSection = () => {
                         <div class="sermon__item">
                             <div class="sermon__inner">
                                 <div class="sermon__thumb">
-                                    <img src="assets/images/sermon/03.jpg" alt="sermon thumb" />
+                                    <img src={Image3} alt="sermon thumb" />
                                 </div>
                                 <div class="sermon__content">
                                     <a href="sermon-single.html"><h6>Embrace Seamlessly distributed portals whereas maintainable.</h6></a>
@@ -80,7 +85,7 @@ const SermonSection = () => {
                         <div class="sermon__item">
                             <div class="sermon__inner">
                                 <div class="sermon__thumb">
-                                    <img src="assets/images/sermon/04.jpg" alt="sermon thumb" />
+                                    <img src={Image4} alt="sermon thumb" />
                                 </div>
                                 <div class="sermon__content">
                                     <a href="sermon-single.html"><h6>Lorem ipsum dolor sit amet, consectetur Atque, soluta.</h6></a>
