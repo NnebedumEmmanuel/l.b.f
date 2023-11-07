@@ -7,7 +7,7 @@ import EventTime from '../components/EventTime';
 import EventSection from '../components/EventSection';
 import ScheduleSection from '../components/ScheduleSection';
 import SermonSection from '../components/SermonSection';
-import Cause from '../Cause';
+import Cause from '../components/Cause';
 
 import GallerySection from '../components/GallerySection';
 import AboutSection from '../components/AboutSection';

@@ -1,5 +1,5 @@
 import React from 'react'
-import background from "./images/bg-img/02.jpg"
+import background from "../images/bg-img/02.jpg"
 
 const Cause = () => {
   return (
