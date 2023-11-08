@@ -1,16 +1,19 @@
 import React from 'react'
-import PreLoader from "../components/PreLoader";
-import HeaderForm from '../components/HeaderForm';
-import HeaderCart from '../components/HeaderCart';
-import Banner from '../components/Banner';
-import EventTime from '../components/EventTime';
-import EventSection from '../components/EventSection';
-import ScheduleSection from '../components/ScheduleSection';
-import SermonSection from '../components/SermonSection';
-import Cause from '../components/Cause';
+import PreLoader from "../components/Others/PreLoader";
+import HeaderForm from "../components/Others/HeaderForm";
+import HeaderCart from "../components/Others/HeaderCart";
+import Banner from "../components/SectionsPages/Banner";
+import EventTime from "../components/SectionsPages/EventTime";
+import EventSection from "../components/SectionsPages/EventSection";
+import ScheduleSection from "../components/SectionsPages/ScheduleSection";
+import SermonSection from '../components/SectionsPages/SermonSection';
+import Cause from "../components/SectionsPages/Cause";
 
-import GallerySection from '../components/GallerySection';
-import AboutSection from '../components/AboutSection';
+import GallerySection from "../components/SectionsPages/GallerySection";
+import AboutSection from "../components/SectionsPages/AboutSection";
+import BlogSection from '../components/SectionsPages/BlogSection';
+import QuoteSection from '../components/SectionsPages/QuoteSection';
+import SponsorSection from '../components/SectionsPages/SponsorSection';
 
 const Home = () => {
   return (
@@ -58,11 +61,14 @@ const Home = () => {
       <Cause/>
 
       {/* <!-- ================> Blog section start here <================== --> */}
+      <BlogSection/>
         
 
       {/* <!-- ================> Qoute section start here <================== --> */}
+      <QuoteSection/>
 
       {/* <!-- ================> Sponsor section start here <================== --> */}
+      <SponsorSection/>
 
       {/* <!-- ================> Contact section start here <================== --> */}
 

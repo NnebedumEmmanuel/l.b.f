@@ -1,7 +1,7 @@
 import React from "react";
-import Background from "../images/bg-img/01.jpg"
-import Image1 from "../images/shedule/sun.png"
-import Image2 from "../images/shedule/sun2.png";
+import Background from "../../images/bg-img/01.jpg";
+import Image1 from "../../images/shedule/sun.png";
+import Image2 from "../../images/shedule/sun2.png";
 
 const ScheduleSection = () => {
   return (

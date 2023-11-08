@@ -1,13 +1,13 @@
 import React from 'react'
-import Image1 from "../images/gallery/01.jpg";
-import Image2 from "../images/gallery/02.jpg";
-import Image3 from "../images/gallery/03.jpg";
-import Image4 from "../images/gallery/04.jpg";
-import Image5 from "../images/gallery/05.jpg";
-import Image6 from "../images/gallery/06.jpg";
-import Image7 from "../images/gallery/07.jpg";
-import Image8 from "../images/gallery/08.jpg";
-import Image9 from "../images/gallery/09.jpg";
+import Image1 from "../../images/gallery/01.jpg";
+import Image2 from "../../images/gallery/02.jpg";
+import Image3 from "../../images/gallery/03.jpg";
+import Image4 from "../../images/gallery/04.jpg";
+import Image5 from "../../images/gallery/05.jpg";
+import Image6 from "../../images/gallery/06.jpg";
+import Image7 from "../../images/gallery/07.jpg";
+import Image8 from "../../images/gallery/08.jpg";
+import Image9 from "../../images/gallery/09.jpg";
 
 const GallerySection = () => {
   return (

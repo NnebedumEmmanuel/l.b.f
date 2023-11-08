@@ -1,7 +1,7 @@
 import React from 'react'
-import Image1 from "../images/event/01.jpg"
-import Image2 from "../images/event/02.jpg";
-import Image3 from "../images/event/03.jpg";
+import Image1 from "../../images/event/01.jpg";
+import Image2 from "../../images/event/02.jpg";
+import Image3 from "../../images/event/03.jpg";
 
 const EventSection = () => {
   return (

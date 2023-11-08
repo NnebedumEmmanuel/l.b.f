@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Image1 from "../images/sermon/01.jpg"
-import Image2 from "../images/sermon/02.jpg";
-import Image3 from "../images/sermon/03.jpg";
-import Image4 from "../images/sermon/04.jpg";
+import Image1 from "../../images/sermon/01.jpg"
+import Image2 from "../../images/sermon/02.jpg";
+import Image3 from "../../images/sermon/03.jpg";
+import Image4 from "../../images/sermon/04.jpg";
 
 const SermonSection = () => {
   return (
