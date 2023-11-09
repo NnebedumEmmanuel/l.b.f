@@ -194,7 +194,7 @@ const Header = () => {
                     </ul>
                   </li>
                   <li>
-                    <a href="#0">Blog</a>
+                    <Link to="Blog">Blog</Link>
                     <ul>
                       <li>
                         <a href="blog.html">Blog Default</a>
