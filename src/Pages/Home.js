@@ -16,6 +16,7 @@ import QuoteSection from '../components/SectionsPages/QuoteSection';
 import SponsorSection from '../components/SectionsPages/SponsorSection';
 import ContactSection from '../components/SectionsPages/ContactSection';
 import LocationSection from '../components/SectionsPages/LocationSection';
+import Socialsection from '../components/SectionsPages/Socialsection';
 
 const Home = () => {
   return (
@@ -79,6 +80,7 @@ const Home = () => {
       <LocationSection/>
 
       {/* <!-- ================> Social section start here <================== --> */}
+      <Socialsection/>
 
       {/* fOOTER SECTION */}
     </>
