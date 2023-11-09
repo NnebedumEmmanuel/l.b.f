@@ -1,6 +1,7 @@
 import { Outlet } from "react-router-dom";
 
 import Header from "../components/Others/Header";
+import FooterSection from "../components/SectionsPages/FooterSection";
 
 export default function RootLayout() {
   return (
@@ -13,6 +14,7 @@ export default function RootLayout() {
     
       
       <footer>
+      <FooterSection/>
 
       </footer>
     </body>

@@ -83,6 +83,12 @@ const Home = () => {
       <Socialsection/>
 
       {/* fOOTER SECTION */}
+      
+
+
+       {/*  scrollToTop start here  */}
+    <a href="#" class="scrollToTop"><i class="fas fa-arrow-up"></i><span class="pluse_1"></span><span class="pluse_2"></span></a>
+   
     </>
   );
 }
