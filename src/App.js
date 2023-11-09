@@ -15,6 +15,7 @@ import { Contact } from "./Pages/Contact";
 
 //Routes
 import RootLayout from "./Routes/RootLayout";
+import Blog from "./Pages/Blog";
 
 
 const router = createBrowserRouter(
@@ -24,9 +25,10 @@ const router = createBrowserRouter(
       <Route path="/about" element={<About />} />
       <Route path="/Sermons" element={<Sermons />} />
       <Route path="/contact" element={<Contact />} />
+      <Route path="/Blog" element={<Blog />} />
     </Route>
   )
-)
+);
 
 function App() {
   return (
