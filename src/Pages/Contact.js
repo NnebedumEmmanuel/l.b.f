@@ -1,9 +1,35 @@
 import React from "react";
+import HeaderForm from "../components/Others/HeaderForm";
+import HeaderCart from "../components/Others/HeaderCart";
+import PageHeader from "../components/SectionsPages/PageHeader";
+import BlogPage from "../components/LandingPages/BlogPage";
+import Socialsection from "../components/SectionsPages/Socialsection";
+import LocationSection from "../components/SectionsPages/LocationSection";
+import ContactPage from "../components/LandingPages/ContactPage";
 
 export const Contact = () => {
   return (
     <div>
-      <h1>Contact Us</h1>
+      {/* Header Search */}
+      <HeaderForm />
+
+      <div class="overlay"></div>
+      {/* Header Cart */}
+      <HeaderCart />
+
+      {/* header in root*/}
+
+      <PageHeader page="Contact" />
+      <ContactPage />
+      <LocationSection/>
+      <Socialsection/>
+
+      {/* <!-- scrollToTop start here --> */}
+      <a href="#" class="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+        <span class="pluse_1"></span>
+        <span class="pluse_2"></span>
+      </a>
     </div>
   );
 };

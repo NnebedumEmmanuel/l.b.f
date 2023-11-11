@@ -7,7 +7,7 @@ export default function RootLayout() {
   return (
     <body className="root-layout">
       <header>
-        <Header />
+        <Header  />
       </header>
      
         <Outlet />

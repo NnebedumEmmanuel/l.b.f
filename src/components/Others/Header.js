@@ -1,8 +1,8 @@
 import React from 'react'
 import Logo from "../../images/img/lb-logo.jpg";
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 
-const Header = () => {
+const Header = (props) => {
   return (
     <header class="header">
       <div class="navbar-expand-xl">
@@ -79,7 +79,7 @@ const Header = () => {
         </div>
       </div>
 
-      <div class="header__bottom" >
+      <div class="header__bottom">
         <div class="container">
           <div class="header__mainmenu navbar navbar-expand-xl navbar-light">
             <div class="header__logo">
@@ -127,11 +127,13 @@ const Header = () => {
             <div class="header__menu navbar-expand-xl">
               <div class="collapse navbar-collapse" id="menubar">
                 <ul>
-                  <li class="active">
-                    <Link to="#0">Home</Link>
-                    <ul>
+                  <li className={props.class}>
+                    <Link className={props.class} index>
+                      Home
+                    </Link>
+                    {/* <ul>
                       <li>
-                        <a href="index.html" class="active">
+                        <a href="index.html" class="class">
                           Home Page Christian
                         </a>
                       </li>
@@ -141,11 +143,11 @@ const Header = () => {
                       <li>
                         <a href="index-3.html">Home Page Hindu</a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
-                  <li>
-                    <a href="#0">Events</a>
-                    <ul>
+                  <li class={props.class}>
+                    <Link to="/Events">Events</Link>
+                    {/* <ul>
                       <li>
                         <a href="event.html">Event Two Column</a>
                       </li>
@@ -155,47 +157,28 @@ const Header = () => {
                       <li>
                         <a href="event-single.html">Event Single</a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
-                  <li>
-                    <a href="#0">Causes</a>
-                    <ul>
-                      <li>
-                        <a href="cause.html">Cause Two Column</a>
-                      </li>
-                      <li>
-                        <a href="cause-single.html">Cause Single</a>
-                      </li>
-                    </ul>
+                  <li class={props.class}>
+                    <Link to="/Cause">Cause</Link>
                   </li>
-                  <li>
-                    <a href="#0">Gallery</a>
-                    <ul>
-                      <li>
-                        <a href="gallery.html">Gallery Default</a>
-                      </li>
-                      <li>
-                        <a href="gallery-2.html">Gallery 4 Columns</a>
-                      </li>
-                      <li>
-                        <a href="gallery-3.html">Gallery 6 Columns</a>
-                      </li>
-                    </ul>
+                  <li class={props.class}>
+                    <Link to="/Gallery">Gallery</Link>
                   </li>
-                  <li>
-                    <a href="#0">Sermons</a>
-                    <ul>
+                  <li class={props.class}>
+                    <Link to="/Sermons">Sermons</Link>
+                    {/* <ul>
                       <li>
                         <a href="sermon.html">Sermons 2 Columns</a>
                       </li>
                       <li>
                         <a href="sermon-single.html">Sermons Single</a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
-                  <li>
-                    <Link to="Blog">Blog</Link>
-                    <ul>
+                  <li class={props.class}>
+                    <Link to="/Blog">Blog</Link>
+                    {/* <ul>
                       <li>
                         <a href="blog.html">Blog Default</a>
                       </li>
@@ -205,10 +188,10 @@ const Header = () => {
                       <li>
                         <a href="blog-single.html">Blog Single</a>
                       </li>
-                    </ul>
+                    </ul> */}
                   </li>
-                  <li>
-                    <a href="#0">Shop</a>
+                  {/* <li class={props.class}>
+                    <Link to="#0">Shop</Link>
                     <ul>
                       <li>
                         <a href="shop.html">Shop</a>
@@ -223,9 +206,9 @@ const Header = () => {
                         <a href="check-out.html">Check Out Page</a>
                       </li>
                     </ul>
-                  </li>
-                  <li>
-                    <a href="contact.html">Contact Us</a>
+                  </li> */}
+                  <li class={props.class}>
+                    <Link to="/Contact">Contact Us</Link>
                   </li>
                 </ul>
                 <a href="cause-single.html" class="default-btn">
