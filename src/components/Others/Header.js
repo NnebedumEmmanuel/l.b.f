@@ -6,8 +6,8 @@ const Header = (props) => {
   return (
     <header class="header">
       <div class="navbar-expand-xl">
-        <div class="collapse navbar-collapse" id="menubar2">
-          <div class="header__top w-100">
+        <div class="collapse navbar-collapse m-0 p-0" id="menubar2">
+          <div class="header__top w-100  m-1 p-0">
             <div class="container">
               <div class="header__top-area">
                 <div class="header__top-left">

@@ -149,21 +149,21 @@ const FooterSection = () => {
           </div>
         </div>
       </div>
-      <div class="footer__bottom">
-        <div class="container">
-          <div class="footer__bottom-area text-center">
-            <div class="footer__bottom-logo">
+      <div class="footer__bottom m-0 p-0">
+        <div class="container mx-0">
+          <div class="footer__bottom-area text-center ">
+            <div class="footer__bottom-logo m-1 p-0">
               <a href="index.html">
                 <img
                   src={Logo}
-                  style={{ width: "90px" }}
+                  style={{ width: "60px" }}
                   alt="footer logo"
                   className="rounded-pill  "
                 />
               </a>
             </div>
-            <div class="footer__bottom-content">
-              <p>
+            <div class="footer__bottom-content mb-1 p-0">
+              <p className="m-0 p-0">
                 Copyright © 2022 <a href="index.html">Peace</a> | Designed by{" "}
                 <a href="https://themeforest.net/user/codexcoder/portfolio">
                   CodexCoder
