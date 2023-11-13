@@ -15,17 +15,17 @@ const QuoteSection = () => {
                 <div class="qoute__inner align-items-center">
                   <div class="qoute__thumb">
                     <h4>Quote From </h4>
-                    <span>Prophat</span>
+                    <span>Peter</span>
                     <i class="fas fa-quote-left"></i>
                   </div>
                   <div class="qoute__content">
                     <blockquote class="qoute__content-blockquote">
                       <p>
-                        Hazrat Mohammod (s) Said "It is Better For Any Of You To
+                      peter (s) Said "It is Better For Any Of You To
                         Carry A Load Of Firewood On His Own Back Than To Beg
                         From Someone Else"
                       </p>
-                      <h4>Riyadh-Us-Saleheen, Chapter 59, hadith 540</h4>
+                      <h4>peter, Chapter 59, verse 20</h4>
                     </blockquote>
                   </div>
                 </div>

@@ -71,7 +71,7 @@ const Home = () => {
       <QuoteSection/>
 
       {/* <!-- ================> Sponsor section start here <================== --> */}
-      <SponsorSection/>
+      {/* <SponsorSection/> */}
 
       {/* <!-- ================> Contact section start here <================== --> */}
       <ContactSection/>
