@@ -125,7 +125,7 @@ const FooterSection = () => {
                     </li>
                     <li>
                       <a href="#">
-                        Entries <abbr title="RSS">RSS</abbr>
+                        Entries <abbr title="Ratalalian service server">RSS</abbr>
                       </a>
                     </li>
                     <li>
@@ -164,9 +164,9 @@ const FooterSection = () => {
             </div>
             <div class="footer__bottom-content mb-1 p-0">
               <p className="m-0 p-0">
-                Copyright © 2022 <a href="index.html">Peace</a> | Designed by{" "}
-                <a href="https://themeforest.net/user/codexcoder/portfolio">
-                  CodexCoder
+                Copyright © 2023 <a href="index.html">LBF</a> | Designed by{" "}
+                <a href="https://Techtide/portfolio">
+                  <b >TechTide</b>
                 </a>
               </p>
             </div>

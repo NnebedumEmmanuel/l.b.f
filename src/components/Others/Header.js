@@ -146,7 +146,7 @@ const Header = (props) => {
                     </ul> */}
                   </li>
                   <li class={props.class}>
-                    <Link to="/Events">Events</Link>
+                    <Link to="/Events#">Events</Link>
                     {/* <ul>
                       <li>
                         <a href="event.html">Event Two Column</a>
