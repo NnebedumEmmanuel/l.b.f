@@ -19,7 +19,7 @@ const Events = () => {
 
       {/* hwader in root*/}
 
-      <PageHeader page="Events" />
+      <PageHeader page="Events" title="Events" />
 
       <EventPage />
       <Socialsection />

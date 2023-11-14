@@ -4,10 +4,12 @@ import HeaderCart from '../components/Others/HeaderCart';
 import PageHeader from '../components/SectionsPages/PageHeader';
 import BlogPage from '../components/LandingPages/BlogPage';
 import Socialsection from '../components/SectionsPages/Socialsection';
+import ScrollToTop from '../components/Others/ScrollToTop';
 
 const Causes = () => {
   return (
     <div>
+      <ScrollToTop />
       {/* Header Search */}
       <HeaderForm />
 

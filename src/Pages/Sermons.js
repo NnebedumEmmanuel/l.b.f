@@ -5,10 +5,12 @@ import PageHeader from "../components/SectionsPages/PageHeader";
 import BlogPage from "../components/LandingPages/BlogPage";
 import SermonPage from "../components/LandingPages/SermonPage";
 import Socialsection from "../components/SectionsPages/Socialsection";
+import ScrollToTop from "../components/Others/ScrollToTop";
 
 export const Sermons = () => {
   return (
     <div>
+      <ScrollToTop />
       {/* Header Search */}
       <HeaderForm />
 
@@ -18,7 +20,7 @@ export const Sermons = () => {
 
       {/* header in root*/}
 
-      <PageHeader page="Sermon" />
+      <PageHeader page="Sermon" title="Sermon" />
       <SermonPage />
       <Socialsection />
 

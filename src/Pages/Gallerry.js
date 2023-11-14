@@ -4,10 +4,12 @@ import Socialsection from '../components/SectionsPages/Socialsection';
 import HeaderForm from '../components/Others/HeaderForm';
 import PageHeader from '../components/SectionsPages/PageHeader';
 import GalleryPage from '../components/LandingPages/GalleryPage';
+import ScrollToTop from '../components/Others/ScrollToTop';
 
 const Gallerry = () => {
   return (
     <div>
+      <ScrollToTop />
       {/* Header Search */}
       <HeaderForm />
 
@@ -17,7 +19,7 @@ const Gallerry = () => {
 
       {/* header in root*/}
 
-      <PageHeader page="Gallery" />
+      <PageHeader page="Gallery" title="Gallery" />
       <GalleryPage />
       <Socialsection />
 

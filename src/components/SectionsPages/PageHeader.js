@@ -6,7 +6,7 @@ const PageHeader = (props) => {
       <div class="container">
         <div class="pageheader__area">
           <div class="pageheader__left">
-            <h3>Blog</h3>
+            <h3>{props.title}</h3>
           </div>
           <div class="pageheader__right">
             <nav aria-label="breadcrumb">

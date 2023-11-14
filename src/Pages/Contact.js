@@ -6,10 +6,12 @@ import BlogPage from "../components/LandingPages/BlogPage";
 import Socialsection from "../components/SectionsPages/Socialsection";
 import LocationSection from "../components/SectionsPages/LocationSection";
 import ContactPage from "../components/LandingPages/ContactPage";
+import ScrollToTop from "../components/Others/ScrollToTop";
 
 export const Contact = () => {
   return (
     <div>
+      <ScrollToTop />
       {/* Header Search */}
       <HeaderForm />
 
@@ -19,10 +21,10 @@ export const Contact = () => {
 
       {/* header in root*/}
 
-      <PageHeader page="Contact" />
+      <PageHeader page="Contact" title="Contact us" />
       <ContactPage />
-      <LocationSection/>
-      <Socialsection/>
+      <LocationSection />
+      <Socialsection />
 
       {/* <!-- scrollToTop start here --> */}
       <a href="#" class="scrollToTop">

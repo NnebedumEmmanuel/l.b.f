@@ -4,10 +4,12 @@ import BlogPage from '../components/LandingPages/BlogPage'
 import Socialsection from '../components/SectionsPages/Socialsection';
 import HeaderCart from '../components/Others/HeaderCart';
 import HeaderForm from '../components/Others/HeaderForm';
+import ScrollToTop from '../components/Others/ScrollToTop';
 
 const Blog = () => {
   return (
     <div>
+      <ScrollToTop />
       {/* Header Search */}
       <HeaderForm />
 
@@ -17,15 +19,16 @@ const Blog = () => {
 
       {/* header in root*/}
 
-      <PageHeader page="Blog" />
+      <PageHeader page="Blog" title="Blog" />
       <BlogPage />
-      <Socialsection/>
-     
+      <Socialsection />
 
       {/* <!-- scrollToTop start here --> */}
-    <a href="#" class="scrollToTop"><i class="fas fa-arrow-up"></i><span class="pluse_1"></span><span class="pluse_2"></span></a>
-   
-
+      <a href="#" class="scrollToTop">
+        <i class="fas fa-arrow-up"></i>
+        <span class="pluse_1"></span>
+        <span class="pluse_2"></span>
+      </a>
     </div>
   );
 }
