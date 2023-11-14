@@ -4,10 +4,12 @@ import HeaderCart from '../components/Others/HeaderCart';
 import PageHeader from '../components/SectionsPages/PageHeader';
 import EventPage from '../components/LandingPages/EventPage';
 import Socialsection from '../components/SectionsPages/Socialsection';
+import ScrollToTop from '../components/Others/ScrollToTop';
 
 const Events = () => {
   return (
     <div>
+      <ScrollToTop />
       {/* Header Search */}
       <HeaderForm />
 
