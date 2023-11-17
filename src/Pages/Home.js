@@ -41,7 +41,7 @@ const Home = () => {
 
 
       {/* < Event Time section start here  */}
-      <EventTime/>
+      {/* <EventTime/> */}
 
 
       {/* <!-- ================> About section start here <================== --> */}

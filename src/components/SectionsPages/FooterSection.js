@@ -3,7 +3,7 @@ import About from "../../images/footer/about/01.jpg"
 import Post1 from "../../images/footer/post/01.jpg"
 import Post2 from "../../images/footer/post/02.jpg";
 import Post3 from "../../images/footer/post/03.jpg";
-import Logo from "../../images/img/lb-logo.jpg";
+import Logo from "../../images/logo/lb-logo.jpg";
 
 const FooterSection = () => {
   return (

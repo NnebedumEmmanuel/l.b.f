@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../../images/img/lb-logo.jpg";
+import Logo from "../../images/logo/lb-logo.jpg";
 import { Link, NavLink } from 'react-router-dom';
 
 const Header = (props) => {
@@ -14,7 +14,7 @@ const Header = (props) => {
                   <ul>
                     <li>
                       <i class="fas fa-phone-alt"></i>
-                      +8812 345 678 912
+                      +234 813 839 7603
                     </li>
                     <li>
                       <i class="fas fa-envelope"></i>
@@ -36,10 +36,13 @@ const Header = (props) => {
                 </div>
                 <div class="header__top-right">
                   <div class="header__top-socialsearch">
-                    <div class="header__top-social">
-                      <ul>
+                    <div class="header__top-social mx-o px-0">
+                      <ul class=" mx-0">
                         <li>
-                          <Link to="#">
+                          <Link
+                            to="https://www.facebook.com/LBFFUTO/"
+                            target="_blank"
+                          >
                             <i class="fab fa-facebook-f"></i>
                           </Link>
                         </li>
@@ -60,7 +63,7 @@ const Header = (props) => {
                         </li>
                       </ul>
                     </div>
-                    <div class="header__top-search">
+                    {/* <div class="header__top-search">
                       <ul>
                         <li class="search__icon">
                           <i class="fas fa-search"></i>
@@ -70,7 +73,7 @@ const Header = (props) => {
                           <span>04</span>
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
                 </div>
               </div>

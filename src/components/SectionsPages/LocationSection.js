@@ -29,7 +29,7 @@ const LocationSection = () => {
                     <div class="location__info-thumb">
                       <img
                         // className="w-25 p-3 rounded-circle"
-                        style={{width: "100px"}}
+                        style={{ width: "100px" }}
                         src={Image1}
                         alt="location thumb"
                       />
@@ -39,7 +39,7 @@ const LocationSection = () => {
                       <span>Church Pastor</span>
                       <ul>
                         <li>
-                          <b>Tel:</b>+002145698
+                          <b>Tel:</b>+ 234 813 839 7603
                         </li>
                         <li>
                           <b>Email:</b>info@pstchizzy.com
@@ -61,8 +61,8 @@ const LocationSection = () => {
                           </div>
                           <div class="location__info-right">
                             <p>
-                              futo, Opp Roundabout,
-                              Nigeria.
+                              Federal University of Technology Owerri (Beside
+                              FUTO Foods OLD SEETHEAD), Owerri, Nigeria
                             </p>
                           </div>
                         </li>
@@ -72,14 +72,14 @@ const LocationSection = () => {
                           </div>
                           <div class="location__info-right">
                             <ul>
-                              <li>
+                              {/* <li>
                                 <b>Monday-Thursday :</b> 06:00 am - 09:00 pm
+                              </li> */}
+                              <li>
+                                <b>wednesday :</b> 4:30 pm - 07:00 pm
                               </li>
                               <li>
-                                <b>Friday :</b> 10:30 am - 05:30 pm
-                              </li>
-                              <li>
-                                <b>Saturday :</b> 10:30 am - 05:30 pm
+                                <b>Saturday :</b> 05:30 am - 07:30 pm
                               </li>
                               <li>
                                 <b>Sunday :</b> Closed
