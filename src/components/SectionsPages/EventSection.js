@@ -8,7 +8,7 @@ const EventSection = () => {
     <div class="event padding--top padding--bottom">
       <div class="container">
         <div class="section__header text-center">
-          <h2>weekly Activities</h2>
+          <h2>Weekly Activities</h2>
           <p>
             Join us this week at Love Bound Family as we embark on a
             transformative journey of worship, fellowship, and learning,
@@ -22,25 +22,25 @@ const EventSection = () => {
                 <div class="event__inner">
                   <div class="event__thumb">
                     <a href="event-single.html">
-                      <img src={Image1} alt="event thumb" />
+                      <img src={Image2} alt="event thumb" />
                     </a>
                     <div class="event__thumb-date">
-                      <h6>every</h6>
-                      <p>week</p>
+                      <h6>Every</h6>
+                      <p>Sunday</p>
                     </div>
                   </div>
                   <div class="event__content">
                     <a href="event-single.html">
-                      <h5>Open Rededication</h5>
+                      <h5>Our Sunday Service</h5>
                     </a>
                     <div class="event__metapost">
                       <ul class="event__metapost-info">
                         <li>
-                          <i class="far fa-clock"></i> 10am - 12pm
+                          <i class="far fa-clock"></i> 7am - 12pm
                         </li>
                         <li>
-                          <i class="fas fa-map-marker-alt"></i> PO Box 16122,
-                          Collins Street
+                          <i class="fas fa-map-marker-alt"></i> P&O Lecture
+                          hall, OLD SEET HEAD,
                         </li>
                       </ul>
                       <ul class="event__metapost-comentshare">
@@ -91,25 +91,25 @@ const EventSection = () => {
                 <div class="event__inner">
                   <div class="event__thumb">
                     <a href="event-single.html">
-                      <img src={Image2} alt="event thumb" />
+                      <img src={Image1} alt="event thumb" />
                     </a>
                     <div class="event__thumb-date">
-                      <h6>Every</h6>
-                      <p>Sunday</p>
+                      <h6>every</h6>
+                      <p>week</p>
                     </div>
                   </div>
                   <div class="event__content">
                     <a href="event-single.html">
-                      <h5>Our Sunday Service</h5>
+                      <h5>Open Rededication</h5>
                     </a>
                     <div class="event__metapost">
                       <ul class="event__metapost-info">
                         <li>
-                          <i class="far fa-clock"></i> 7am - 12pm
+                          <i class="far fa-clock"></i> 10am - 12pm
                         </li>
                         <li>
-                          <i class="fas fa-map-marker-alt"></i> P&O Lecture
-                          hall, OLD SEET HEAD,
+                          <i class="fas fa-map-marker-alt"></i> PO Box 16122,
+                          Collins Street
                         </li>
                       </ul>
                       <ul class="event__metapost-comentshare">
