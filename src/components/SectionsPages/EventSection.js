@@ -2,6 +2,7 @@ import React from 'react'
 import Image1 from "../../images/EventDays/service banner.jpg";
 import Image2 from "../../images/EventDays/Sunday service.jpg";
 import Image3 from "../../images/EventDays/winepress-banner.jpg";
+import ShareContent from '../Others/ShareContent';
 
 const EventSection = () => {
   return (
@@ -78,9 +79,9 @@ const EventSection = () => {
                       </ul>
                     </div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore consectetur
-                      adipisicing elit
+                      Welcome to Love Bound Family's uplifting and
+                      soul-nourishing service, where we gather to worship,
+                      learn, and experience the boundless love of God together
                     </p>
                   </div>
                 </div>
@@ -100,16 +101,16 @@ const EventSection = () => {
                   </div>
                   <div class="event__content">
                     <a href="event-single.html">
-                      <h5>Open Rededication</h5>
+                      <h5>Love Bound Family</h5>
                     </a>
                     <div class="event__metapost">
                       <ul class="event__metapost-info">
                         <li>
-                          <i class="far fa-clock"></i> 10am - 12pm
+                          <i class="fas fa-heart"></i>An Oasis of Love
                         </li>
                         <li>
-                          <i class="fas fa-map-marker-alt"></i> PO Box 16122,
-                          Collins Street
+                          <i class="fas fa-map-marker-alt"></i> P&O Lecture
+                          hall, OLD SEET HEAD
                         </li>
                       </ul>
                       <ul class="event__metapost-comentshare">
@@ -124,7 +125,10 @@ const EventSection = () => {
                           <ul>
                             <li>
                               <a href="#">
-                                <i class="fab fa-facebook-f"></i>
+                                <ShareContent
+                                  contentUrl={"#"}
+                                  contentTitle={"#"}
+                                />
                               </a>
                             </li>
                             <li>
@@ -147,9 +151,10 @@ const EventSection = () => {
                       </ul>
                     </div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore consectetur
-                      adipisicing elit
+                      Join us for our services at Love Bound Family, where each
+                      gathering is a sacred opportunity to encounter God's love,
+                      grow in faith, and experience the warmth of our inclusive
+                      community
                     </p>
                   </div>
                 </div>
@@ -163,13 +168,13 @@ const EventSection = () => {
                       <img src={Image3} alt="event thumb" />
                     </a>
                     <div class="event__thumb-date">
-                      <h6>09</h6>
-                      <p>Nov</p>
+                      <h6>Every</h6>
+                      <p>Wed</p>
                     </div>
                   </div>
                   <div class="event__content">
                     <a href="event-single.html">
-                      <h5>Church Evert</h5>
+                      <h5>Winepress</h5>
                     </a>
                     <div class="event__metapost">
                       <ul class="event__metapost-info">
@@ -178,7 +183,7 @@ const EventSection = () => {
                         </li>
                         <li>
                           <i class="fas fa-map-marker-alt"></i> P&O Lecture
-                          hall, OLD SEET HEAD,
+                          hall, OLD SEET HEAD
                         </li>
                       </ul>
                       <ul class="event__metapost-comentshare">
@@ -216,9 +221,10 @@ const EventSection = () => {
                       </ul>
                     </div>
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipisicing elit,
-                      sed do eiusmod tempor incididunt ut labore consectetur
-                      adipisicing elit
+                      Step into the transformative 'Winepress' midweek service
+                      at Love Bound Family, where we press into the richness of
+                      God's presence, refining our faith and experiences to
+                      produce the finest spiritual vintage
                     </p>
                   </div>
                 </div>
