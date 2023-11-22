@@ -73,6 +73,9 @@ const Cause = () => {
           </div>
         </div>
       </div>
+      <p>
+
+      </p>
     </div>
   );
 }

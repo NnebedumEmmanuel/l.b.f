@@ -41,13 +41,13 @@ const FooterSection = () => {
                       <a href="#">Christian</a>
                     </li>
                     <li>
-                      <a href="#">Design</a>
+                      <a href="#">GOd's purpose</a>
                     </li>
                     <li>
-                      <a href="#">Photography</a>
+                      <a href="#">LBF</a>
                     </li>
                     <li>
-                      <a href="#">Media</a>
+                      <a href="#">Church</a>
                     </li>
                   </ul>
                 </div>

@@ -13,12 +13,12 @@ const BlogSection = () => {
     <div class="blog padding--top padding--bottom bg-light">
         <div class="container">
             <div class="section__header text-center">
-                <h2>Recent News</h2>
+                <h2>Blogs</h2>
                 <p>Proin Eget Tortor Risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Curabitur aliquet quam id dui posuere blandit</p>
             </div>
             <div class="section__wrapper">
                 <div class="row g-4">
-                    <div class="col-lg-8 col-12">
+                    <div class="col-lg-12 col-12">
                         <div class="blog__left">
                             <div class="blog__area">
                                 <div class="blog__item">
@@ -88,7 +88,7 @@ const BlogSection = () => {
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-4 col-12">
+                    {/* <div class="col-lg-4 col-12">
                         <div class="blog__right">
                             <div class="section__header">
                                 <h2>Best Product</h2>
@@ -158,7 +158,7 @@ const BlogSection = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </div>
         </div>
