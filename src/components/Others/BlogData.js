@@ -1,15 +1,20 @@
 // blogData.js
+import OutReach from "../../images/blog/imgs/Screenshot 2023-11-22 100310.png";
+import Faith from "../../images/blog/imgs/Faith.jpg"
+import Love from "../../images/blog/imgs/love series.jpg";
 
 const BlogData = [
   {
     title: "Love in Action: Community Outreach Impact",
     header: "Nourishing Hearts: Love Bound Family's Impactful Food Drive",
     paragraphs: [""],
-    ThumbNail: "",
+    thumbNail: "",
+    time: "",
+    Writer: "",
   },
   {
-    title: "Transformed Lives: Testimonies of Faith",
-    header: "Diving into React Development",
+    title: "Love bound family Outreach",
+    header: "Our outReach",
     paragraphs: [
       <p>
         Amidst the crisp fall air, Love Bound Family embarked on a mission to
@@ -34,6 +39,16 @@ const BlogData = [
         community.
       </p>,
     ],
+    thumbNail: OutReach,
+    time: "9 Jan 2020",
+    Writer: "Davis",
+    ThumbText: (
+      <p>
+        Revolutions of the bright points that first defined him to me. And
+        beneath the effulgent Antarctic skies I have boarded the Argo-Navis, and
+        joined the I have boarded the Argo-Navis, and joined the
+      </p>
+    ),
   },
   {
     title: "Insights from Scripture: Embracing Love and Purpose",
@@ -75,6 +90,16 @@ const BlogData = [
         within the biblical context and its relevance in our lives today.
       </p>,
     ],
+    thumbNail: Love,
+    time: "20 feb 2020",
+    Writer: "Precious",
+    ThumbText: (
+      <p>
+        Revolutions of the bright points that first defined him to me. And
+        beneath the effulgent Antarctic skies I have boarded the Argo-Navis, and
+        joined the I have boarded the Argo-Navis, and joined the
+      </p>
+    ),
   },
   {
     title: "Living by the Word: Embracing Love, Community, and Purpose",
@@ -122,6 +147,16 @@ const BlogData = [
         discovering our purpose in alignment with God's plan.
       </p>,
     ],
+    thumbNail: Love,
+    time: "45 Dec 2023",
+    Writer: "Emma",
+    ThumbText: (
+      <p>
+        Revolutions of the bright points that first defined him to me. And
+        beneath the effulgent Antarctic skies I have boarded the Argo-Navis, and
+        joined the I have boarded the Argo-Navis, and joined the
+      </p>
+    ),
   },
   {
     title: "Living by the Word: Embracing Love, Community, and Purpose",
@@ -172,6 +207,16 @@ const BlogData = [
         make a meaningful impact in the lives of others.
       </p>,
     ],
+    thumbNail: Love,
+    time: "9 oct 2020",
+    Writer: "Davis",
+    ThumbText: (
+      <p>
+        Revolutions of the bright points that first defined him to me. And
+        beneath the effulgent Antarctic skies I have boarded the Argo-Navis, and
+        joined the I have boarded the Argo-Navis, and joined the
+      </p>
+    ),
   },
 
   {
@@ -213,6 +258,16 @@ const BlogData = [
         faith during times of uncertainty and doubt.
       </p>,
     ],
+    thumbNail: Faith,
+    time: "9 Jan 2020",
+    Writer: "Divine",
+    ThumbText: (
+      <p>
+        Revolutions of the bright points that first defined him to me. And
+        beneath the effulgent Antarctic skies I have boarded the Argo-Navis, and
+        joined the I have boarded the Argo-Navis, and joined the
+      </p>
+    ),
   },
   {
     title: "Faith Through Trials: Navigating Life's Challenges",
@@ -256,6 +311,82 @@ const BlogData = [
         midst of trials.
       </p>,
     ],
+    thumbNail: Faith,
+    time: "9 Jan 2020",
+    Writer: "Divine",
+    ThumbText: (
+      <p>
+        Revolutions of the bright points that first defined him to me. And
+        beneath the effulgent Antarctic skies I have boarded the Argo-Navis, and
+        joined the I have boarded the Argo-Navis, and joined the
+      </p>
+    ),
+  },
+  {
+    title: "Faith Through Trials: Navigating Life's Challenges",
+    header: "Part 3: Discovering Purpose Amidst Trials",
+    paragraphs: [
+      <p>
+        As we continue our journey through life's trials, we delve into the
+        profound concept of discovering purpose amidst adversity—a beacon of
+        hope that guides us through the darkest of times.
+      </p>,
+      <p>
+        "And we know that in all things God works for the good of those who love
+        him, who have been called according to his purpose." (Romans 8:28)
+      </p>,
+      <p>
+        Trials, though painful, can be transformative, shaping us and leading us
+        toward our divine purpose. They provide an opportunity for
+        introspection, growth, and discovering strengths we never knew we
+        possessed. Often, it's within the crucible of trials that our purpose
+        becomes clearer. Just as gold is refined in fire, our character and
+        purpose can be honed in the furnace of adversity. Instead of being
+        defeated by challenges, we are invited to seek meaning and purpose
+        within them.
+      </p>,
+      <p>
+        Absolutely, here's the third part of the series: Title: "Faith Through
+        Trials: Navigating Life's Challenges" Part 3: Discovering Purpose Amidst
+        Trials As we continue our journey through life's trials, we delve into
+        the profound concept of discovering purpose amidst adversity—a beacon of
+        hope that guides us through the darkest of times. "And we know that in
+        all things God works for the good of those who love him, who have been
+        called according to his purpose." (Romans 8:28) Trials, though painful,
+        can be transformative, shaping us and leading us toward our divine
+        purpose. They provide an opportunity for introspection, growth, and
+        discovering strengths we never knew we possessed. Often, it's within the
+        crucible of trials that our purpose becomes clearer. Just as gold is
+        refined in fire, our character and purpose can be honed in the furnace
+        of adversity. Instead of being defeated by challenges, we are invited to
+        seek meaning and purpose within them. Throughout the Bible, we encounter
+        individuals who discovered their purpose through trials. Moses found his
+        purpose after facing personal doubts and challenges. Esther discovered
+        her purpose during a time of immense danger and uncertainty. Their
+        stories teach us that even amidst trials, God's purpose for our lives
+        can unfold in remarkable ways. In this segment, we'll explore practical
+        steps to discern our purpose during challenging times. It involves
+        introspection, prayer, seeking guidance, and paying attention to the
+        lessons hidden within adversity.
+      </p>,
+      <p>
+        Join us as we continue to unravel the mysteries of purpose within trials
+        in the next segments, delving deeper into how these experiences shape
+        and refine our faith and character. Stay tuned for Part 4, where we'll
+        discuss finding strength through community and support during life's
+        trials.
+      </p>,
+    ],
+    thumbNail: Love,
+    time: "9 Jan 2020",
+    Writer: "Davis",
+    ThumbText: (
+      <p>
+        Revolutions of the bright points that first defined him to me. And
+        beneath the effulgent Antarctic skies I have boarded the Argo-Navis, and
+        joined the I have boarded the Argo-Navis, and joined the
+      </p>
+    ),
   },
 
   // Add more blog posts as needed

@@ -8,6 +8,7 @@ import Image4 from "../../images/blog/04.jpg";
 import Image5 from "../../images/blog/slider/01.jpg";
 import Image6 from "../../images/blog/slider/02.jpg";
 import Image7 from "../../images/blog/slider/03.jpg";
+import { Link } from 'react-router-dom';
 
 const BlogPage = () => {
   return (
@@ -73,7 +74,8 @@ const BlogPage = () => {
                         <i class="fas fa-user"></i> Admin
                       </li>
                       <li>
-                        <i class="fas fa-tag"></i> <a href="#">Muslim</a>
+                        <i class="fas fa-tag"></i>{" "}
+                        <Link to="BlogSpa">Muslim</Link>
                       </li>
                     </ul>
                     <p>
@@ -111,12 +113,13 @@ const BlogPage = () => {
                         <i class="fas fa-user"></i> Admin
                       </li>
                       <li>
-                        <i class="fas fa-tag"></i> <a href="#">Muslim</a>
+                        <i class="fas fa-tag"></i>{" "}
+                        <Link to="BlogSpa">Muslim</Link>
                       </li>
                     </ul>
                     <p>
-                      Revolutions of the bright points that first defined him to
-                      me. And beneath the effulgent Antarctic skies I have
+                      Revol utions of the bright points that first defined him
+                      to me. And beneath the effulgent Antarctic skies I have
                       boarded the Argo-Navis, and joined the chase against the
                       starry Cetus far beyond the utmost stretch of Hydrus and
                       the Flying Fish. five long years, he wore this watch up
